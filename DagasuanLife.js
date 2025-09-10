@@ -9,6 +9,8 @@ console.log("Name:", studentName);
 console.log("Course:", course);
 console.log("Year Level:", yearLevel);
 
+console.log("\n"); // Adds a break
+
 
 // Step 2: Operators
 const hoursOfSleep = 8;
@@ -19,6 +21,8 @@ console.log("Total Hours of Sleep:", hoursOfSleep);
 console.log("Total Hours of Study:", hoursOfStudy);
 console.log("Total Hours:", totalHours);
 
+console.log("\n"); // Adds a break
+
 // Step 3: Conditions
 if (hoursOfStudy >= 5) {
   console.log("Great! You studied enough today.");
@@ -26,13 +30,13 @@ if (hoursOfStudy >= 5) {
   console.log("You need to study more.");
 }
 
+console.log("\n"); // Adds a break
+
 // Step 4: Loops
 const subjects = [
   "Web System",
   "Event-Driven",
-  "OOP",
-  "Data Structures",
-  "Database Management"
+  "OOP"
 ];
 
 // Use a for loop to display them
@@ -40,3 +44,13 @@ console.log("List of my Subject this sem:");
 for (let i = 0; i < subjects.length; i++) {
   console.log(subjects[i]);
 }
+
+console.log("\n"); // Adds a break
+
+// Step 5: Functions
+function studentSummary() {
+  return `My name is ${studentName}, a ${yearLevel} Year from ${course}`;
+}
+
+// Call the function and print the result.
+console.log(studentSummary());
