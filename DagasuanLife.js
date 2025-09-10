@@ -8,3 +8,13 @@ const yearLevel = "2nd Year";
 console.log("Name:", studentName);
 console.log("Course:", course);
 console.log("Year Level:", yearLevel);
+
+
+// Step 2: Operators
+const hoursOfSleep = 8;
+const hoursOfStudy = 2;
+
+const totalHours = hoursOfSleep + hoursOfStudy;
+console.log("Total Hours of Sleep:", hoursOfSleep);
+console.log("Total Hours of Study:", hoursOfStudy);
+console.log("Total Hours:", totalHours);
