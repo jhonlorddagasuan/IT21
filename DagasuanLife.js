@@ -18,3 +18,10 @@ const totalHours = hoursOfSleep + hoursOfStudy;
 console.log("Total Hours of Sleep:", hoursOfSleep);
 console.log("Total Hours of Study:", hoursOfStudy);
 console.log("Total Hours:", totalHours);
+
+// Step 3: Conditions
+if (hoursOfStudy >= 5) {
+  console.log("Great! You studied enough today.");
+} else {
+  console.log("You need to study more.");
+}
