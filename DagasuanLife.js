@@ -25,3 +25,18 @@ if (hoursOfStudy >= 5) {
 } else {
   console.log("You need to study more.");
 }
+
+// Step 4: Loops
+const subjects = [
+  "Web System",
+  "Event-Driven",
+  "OOP",
+  "Data Structures",
+  "Database Management"
+];
+
+// Use a for loop to display them
+console.log("List of my Subject this sem:");
+for (let i = 0; i < subjects.length; i++) {
+  console.log(subjects[i]);
+}
